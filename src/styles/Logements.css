@@ -1,0 +1,13 @@
+.logements {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-top : 56px;
+    padding-bottom : 43px;
+    justify-content: space-around;
+    gap: 60px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #F7F7F7;
+}

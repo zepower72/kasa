@@ -6,7 +6,7 @@ import './styles/index.css';
 import Home from './pages/Home';
 import Error404 from './pages/Error404';
 import About from './pages/About';
-import Logement from './pages/Logement';
+import Logement from './pages/PageLogement';
 
 
 // création des routes

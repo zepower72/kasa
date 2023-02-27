@@ -1,13 +1,23 @@
 
 import React from 'react'
-import Navbar from "../components/Navbar"
-import "../styles/About.css"
+import Header from "../components/Header"
+import Banner from "../components/Banner"
+import Main from "../components/Main"
+import Collapse from "../components/Collapse"
+
+import "../styles/Header.css"
+import "../styles/Banner.css"
+import "../styles/Main.css"
+import "../styles/Collapse.css"
 
 function About() {
 	return (
 		<div>
-			<Navbar />
-			About
+			<Main>
+				<Header />
+				<Banner />
+				<Collapse/>
+			</Main>
 		</div>
 	)
 }
