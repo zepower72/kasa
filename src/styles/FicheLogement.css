@@ -2,7 +2,7 @@
     position: relative;
     width: 340px;
     height: 340px;
-    background-image: linear-gradient(180deg, #FF6060, #FF6060, #FF6060, #833131);
+    background-image: linear-gradient(to top, #ff6060, #f35d54, #e75a48, #db583c, #ce5531, #c4502a, #ba4c23, #b0471c, #a73f16, #9d3811, #94300b, #8b2805);
     border-radius: 10px;
     transition: 0.3s;
 }

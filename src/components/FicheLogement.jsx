@@ -3,12 +3,10 @@ import { Link } from "react-router-dom"
 import "../styles/FicheLogement.css"
 
 function ficheLogement({ id, cover, title }) {
-
+//fonction ficheLogement qui prend en paramètre id, cover et title
     return (
         <div className='fiche-logement'>
-            <Link to={{ 
-                pathname: "/Logement",
-                search: "?_id="+id }}>
+            <Link to={{pathname: "/PageLogement",search: "?_id="+id }}>
                 <img src={cover} alt={title} />
                 <h3>{title}</h3>
             </Link>

@@ -1,25 +1,21 @@
-
-import React from 'react'
 import Header from "../components/Header"
 import Banner from "../components/Banner"
 import Main from "../components/Main"
-import Collapse from "../components/Collapse"
+import Dropdownmap from "../components/Dropdownmap"
+import bannerAbout from "../assets/banner-about.png"
 
-import "../styles/Header.css"
-import "../styles/Banner.css"
-import "../styles/Main.css"
-import "../styles/Collapse.css"
 
 function About() {
 	return (
-		<div>
+		<div className="about">
+			<Header />
+			<Banner banner={bannerAbout} />
 			<Main>
-				<Header />
-				<Banner />
-				<Collapse/>
+				<Dropdownmap/>
 			</Main>
 		</div>
 	)
 }
 
 export default About
+

@@ -1,16 +1,16 @@
 import React from 'react'
 import Fiche from './FicheLogement'
 import "../styles/Logements.css"
-import "../styles/FicheLogement.css"
+
 import datas from "../datas/logements.json"
+//
+function Logements() { // Logements is a component
 
-function Logements() {
-
-    return (
-      <div className='logements'>
+    return ( // return a component
+      <div className='logements'> 
             {
-                datas.map( data => {
-                    return (
+                datas.map( data => { // data is an object
+                    return ( // return a component
                         <Fiche key={data.id} id={data.id} cover={data.cover} title={data.title} />
                     )
                 })

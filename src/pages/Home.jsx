@@ -6,13 +6,14 @@ import Footer from '../components/Footer'
 import Main from '../components/Main'
 
 import '../styles/index.css';
+import bannerHome from "../assets/banner-home.png"
 
 function App() {
     return (
         <div>
             <Main>
                 <Header />
-                <Banner />
+                <Banner  banner={bannerHome} text="Chez vous, partout et ailleurs"/>
                 <Logements />
             </Main>
             <Footer />
