@@ -1,0 +1,42 @@
+.error404 {
+    width: 100vw;
+}
+
+.error404 h1 {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    /* or 411px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6060;
+
+}
+
+.error404 p {
+    margin: 0 auto;
+    padding-bottom: 200px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    /* or 51px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6060;
+}
+
+.error404 a {
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6060;
+
+}

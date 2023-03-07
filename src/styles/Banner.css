@@ -29,7 +29,7 @@
     mix-blend-mode: darken;
 }
 
-h1 {
+.banner h1 {
     position: relative;
     display: flex;
     font-size: 48px;
