@@ -1,6 +1,6 @@
 import Banner from "../components/Banner"
 import Main from "../components/Main"
-import Dropdownmap from "../components/Dropdownmap"
+import DropdownAbout from "../components/DropdownAbout"
 import bannerAbout from "../assets/banner-about.png"
 
 
@@ -10,7 +10,7 @@ function About() {
 			
 			<Banner banner={bannerAbout} />
 			<Main>
-				<Dropdownmap/>
+				<DropdownAbout/>
 			</Main>
 			
 		</div>

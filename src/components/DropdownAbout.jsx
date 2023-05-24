@@ -18,5 +18,3 @@ datas.map(data =>{
 }
 
 export default MapDrop
-            
-
