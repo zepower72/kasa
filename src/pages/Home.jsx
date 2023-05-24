@@ -2,6 +2,7 @@ import Banner from '../components/Banner'
 import Logements from '../components/Logements'
 import Main from '../components/Main'
 
+
 import '../styles/index.css';
 import bannerHome from "../assets/banner-home.png"
 
@@ -13,9 +14,10 @@ function App() {
             <Main>
                 <Logements />
             </Main>
+        
             
         </div>
-    );
+    )
 }
 
 export default App;

@@ -7,7 +7,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home';
 import Error404 from './pages/Error404';
 import About from './pages/About';
-import Logement from './pages/PageLogement';
+import Rental from './pages/PageLogement';
 
 
 // création des routes
@@ -16,9 +16,10 @@ root.render(
     <React.StrictMode>
         <Router>
             <Routes>
-                <Route path='/' element={<Layout />}>
-                    <Route path='/' element={<Home />} />
-                    <Route path='Logement' element={<Logement />} />
+                <Route element={<Layout />}>
+                    */Ajouter une structuration Router>Routes>Routec'est que l'on appelle des Outlets/*
+                    <Route index element={<Home />} />
+                    <Route path='/PageLogement?_id' element={<Rental />} />
                     <Route path='About' element={<About />} />
                     <Route path='*' element={<Error404 />} />
                 </Route>

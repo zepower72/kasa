@@ -1,14 +1,11 @@
-
 import {useState}  from 'react'
-import { useLoaderData } from 'react-router-dom'
-import LeftChevron from '../assets/Vector-left.png'
-import RightChevron from '../assets/Vector-right.png'
-import '../styles/Slideshow.css'
+
+import LeftChevron from "../assets/Vector-left.png"
+import RightChevron  from "../assets/Vector-right.png"
 
 export default function Carrousel({pictures}) {
-    const [rent] = useLoaderData()
     const [imgCarrousel, setImgCarrousel] = useState(0)
-    const activeCarousel = rent.pictures.length > 1
+    const activeCarousel = pictures.length > 1
 
     function previousImg() {
       imgCarrousel <= 0 ? setImgCarrousel(pictures.length -1): setImgCarrousel(imgCarrousel - 1)
@@ -19,7 +16,7 @@ export default function Carrousel({pictures}) {
   
   return (
     <section className='carrousel'>
-      <img src={pictures[imgCarrousel]} alt={rent.title}/>
+      <img src={pictures[imgCarrousel]} alt={pictures[imgCarrousel].split("/").slice(-1)}/>
       { activeCarousel && 
         <>
           <LeftChevron onClick={ previousImg } className='left' alt="précedent"/> 

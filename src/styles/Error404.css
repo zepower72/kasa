@@ -1,5 +1,5 @@
 .error404 {
-    width: 100vw;
+    width: 100%;
 }
 
 .error404 h1 {
@@ -39,4 +39,9 @@
     justify-content: center;
     color: #FF6060;
 
+}
+
+.error404 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

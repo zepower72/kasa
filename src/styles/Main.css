@@ -1,12 +1,10 @@
 .main {
-    flex:1;
-    margin: 10px 100px;
-    min-height: 100vh;
-   }
 
-
-@media (max-width: 660px) {
-    .main {
-        margin-inline: 20px;
-    }
+    box-sizing: border-box;
+    width: 1240px;
+    min-height: 900px;
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
 }
