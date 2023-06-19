@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 
-import Dropdown from "../components/Dropdown"
+import Dropdown from "../components/Collapse"
 import HostName from "../components/HostName"
 import Host  from "../components/Host"
 import Rating from "../components/Rating"

@@ -5,7 +5,7 @@ import UpChevron from "../assets/Vector-up.png"
 
 
 //https://blog.openreplay.com/creating-a-collapsible-component-for-react/
-import "../styles/Dropdown.css"
+import "../styles/Collapse.css"
 
 function Dropdown({title, body}) {
     const [open, setOpen] = useState(false)
