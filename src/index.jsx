@@ -7,7 +7,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home';
 import Error404 from './pages/Error404';
 import About from './pages/About';
-import Rental from './pages/PageLogement';
+import Rental from './pages/Rental';
 
 
 // création des routes
@@ -17,9 +17,9 @@ root.render(
         <Router>
             <Routes>
                 <Route element={<Layout />}>
-                    */Ajouter une structuration Router>Routes>Routec'est que l'on appelle des Outlets/*
+                    */Ajouter une structuration Router>Routes>Route c'est que l'on appelle des Outlets/*
                     <Route index element={<Home />} />
-                    <Route path='/PageLogement?_id' element={<Rental />} />
+                    <Route path='Rental/:id' element={<Rental />} />
                     <Route path='About' element={<About />} />
                     <Route path='*' element={<Error404 />} />
                 </Route>
