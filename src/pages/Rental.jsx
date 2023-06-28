@@ -11,10 +11,20 @@ import Carrousel from "../components/Carrousel"
 import Tags from "../components/Tags"
 
 import dataRent from "../datas/logements.json"
+import '../styles/Rental.css'
 
-export default function Rental() {
+export default async function Rental() {
     const {id} = useParams()
     //permet de récupérer l'URL du paramètre id
+
+    // Vérification si la variable "id" contient une valeur
+if (id) {
+   
+    console.log("ID est présent dans la variable 'id'.");
+    } else {
+           
+    console.log("La variable 'id' est vide ou n'a pas été définie.");
+    }
     const rent = dataRent.find(rental => rental.id === id.slice(1))
 /* La méthode find est utilisée pour rechercher un élément spécifique dans un tableau et renvoie la première occurrence qui satisfait une condition donnée.*/
 /*Le paramètre de find est une fonction fléchée : rental => rental.id === id.slice(1). 
@@ -54,7 +64,6 @@ Ensuite, la ligne firstName = arrayHost.shift()utilise la méthode shift()sur le
 La méthode shift()retourne l'élément supprimé, donc firstNamecontiendra la première partie du nom de l'hôte (dans l'exemple précédent, firstNamesera "John").
 Enfin, la ligne lastName = arrayHost.join(" ")utilise la méthode join(" ")sur le tableau arrayHostpour concaténer tous les éléments restants du tableau en une seule chaîne de caractères, séparés par un espace. Le résultat est stocké dans la variable lastName.
 Ainsi, si rentest défini et non faux, le code extraira le prénom et le nom de l'hôte à partir de la propriété namede l'objet rent.hostet les stockera dans les variables firstNameet lastNamerespectivement.*/
-
         return (
             <main className="rental__container">
                 <Carrousel pictures={rent.pictures}/>
