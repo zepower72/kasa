@@ -11,7 +11,7 @@ function Dropdown({title, body}) {
     const [open, setOpen] = useState(false)
     //open est l'état de l'élément actuel (ouvert ou fermé)
     //setOpen est la fonction qui permet de changer l'état de l'élément
-    //useState(false) permet de définir l'état de l'élément à false (fermé)
+    //useState(false) permet de définir l'état de l'élément à false (fermé) sachant que les collapses sont fermés à l'initialisation de la page
 //si open est true, on affiche le chevron vers le haut, sinon on affiche le chevron vers le bas
 //si open est true, on affiche le body, sinon on affiche rien
     return (

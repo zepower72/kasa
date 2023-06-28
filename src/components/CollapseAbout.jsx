@@ -1,5 +1,4 @@
 import React from 'react'
-//permet de conserver l'état de l'élément (ouvert ou fermé) même si on change de page
 import DetailCollapse from "./Collapse"
 
 import datas from "../datas/about.json"

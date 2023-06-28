@@ -1,29 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
+import App from './routes/App';
 import './styles/index.css';
-import Layout from './pages/Layout'
-import Home from './pages/Home';
-import Error404 from './pages/Error404';
-import About from './pages/About';
-import Rental from './pages/Rental';
 
-
-// création des routes
+/*
+Ce code crée une racine ReactDOM et utilise la méthode render pour rendre l'application React dans l'élément HTML avec l'ID "root". 
+L'application est rendue à l'intérieur du composant <React.StrictMode>, ce qui active le mode strict pour effectuer des vérifications supplémentaires. 
+Le composant <Router> englobe l'application et le composant <App/> est rendu à l'intérieur du <Router>, représentant le point d'entrée principal de l'application.
+*/
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render (
     <React.StrictMode>
         <Router>
-            <Routes>
-                <Route element={<Layout />}>
-                    */Ajouter une structuration Router>Routes>Route c'est que l'on appelle des Outlets/*
-                    <Route index element={<Home />} />
-                    <Route path='Rental/:id' element={<Rental />} />
-                    <Route path='About' element={<About />} />
-                    <Route path='*' element={<Error404 />} />
-                </Route>
-            </Routes> 
+            <App/>
         </Router>
     </React.StrictMode>
 );
