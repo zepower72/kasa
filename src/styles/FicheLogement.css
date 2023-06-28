@@ -28,25 +28,3 @@
     color: white;
 }
 
-@media (max-width: 400px) {
-    .fiche-logement {
-        width: 335px;
-        height: 255px;
-    }
-
-    .fiche-logement h3 {
-        height: 60px;
-        margin: 0px 15px;
-    }
-
-    .fiche-logement img {
-        height: 188px;
-    }
-}
-
-
-.fiche-logement:hover {
-    box-shadow: 0px 0px 20px #e37f7f;
-    opacity: 0.8;
-    cursor: pointer;
-}

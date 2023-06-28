@@ -40,21 +40,3 @@
 }
 
 
-@media (max-width: 728px) {
-    .banner h1 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 646px) {
-    .banner {
-        margin-top: 0px;
-        height: 111px;
-    }
-}
-
-@media (max-width: 450px) {
-    .banner h1 {
-        font-size: 1rem;
-    }
-}

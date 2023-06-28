@@ -37,27 +37,3 @@
 }
 
 
-@media (min-width: 451px) and (max-width: 480px) {
-    .header nav a {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 450px) {
-    .header nav a {
-        font-size: 14px;
-    }
-
-    .header ul {
-        gap: 15px;
-    }
-
-    .header img {
-        height: 45px;
-    }
-
-    .header nav {
-        justify-content: center;
-    }
-
-}
