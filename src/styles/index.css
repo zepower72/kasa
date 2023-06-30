@@ -1,12 +1,18 @@
+@font-face {
+    font-family: 'Montserra';
+    src: url('../assets/fonts/static/Montserrat-Regular.ttf');
+}
+
 body {
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserra', sans-serif;
     max-width: 1440px;
-       
+    color: #ff6060;
+
+
 }
 
 a {
     text-decoration: none;
-    color: #000;
 }

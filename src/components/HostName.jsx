@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import "../styles/HostName.css";
 
 //La fonction HostName accepte un objet en tant qu'argument, et à l'intérieur de la fonction, on accède aux propriétés firstName et lastName de cet objet.
-export default function HostName({firstName, lastName}) {
-   
+export default function HostName({ firstName, lastName }) {
   return (
-    <div className='hostName'>
+    <div className="hostName">
       <p>{firstName}</p>
       <p>{lastName}</p>
     </div>
-  )
+  );
 }

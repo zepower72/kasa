@@ -1,4 +1,4 @@
-.header {
+.header-nav {
     width: 1240px;
     height: 68px;
     margin: 0 auto;
@@ -9,31 +9,26 @@
     align-items: center;
 }
 
-.header img {
+.header-nav img {
     width: auto;
     height: 68px;
     margin: auto 0px;
 }
 
-.header-link a {
-    display: flex;
-    justify-content: flex-end;
-    color: #FF6060;
-    text-decoration: none;
+.header-nav a {
     font-size: 24px;
+    color: #ff6060;
+    font-weight: 500;
 }
 
-.header ul {
+.header-nav ul {
     display: flex;
-    gap: 60px;
+    gap: 35px;
     list-style: none;
-    
-    ;
+
 }
 
-.header ul li:hover {
+.header-nav li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-
-

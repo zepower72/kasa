@@ -1,23 +1,26 @@
-import React from 'react'
-import Fiche from './FicheLogement'
-import "../styles/Logements.css"
+import React from "react";
+import Fiche from "./FicheLogement";
+import "../styles/Logements.css";
 
-import datas from "../datas/logements.json"
+import datas from "../datas/logements.json";
 //
-function Logements() { 
-    return ( 
-      <div className='logements'> 
-            {
-                datas.map( data => { 
-                    return (
-                        <Fiche key={data.id} id={data.id} cover={data.cover} title={data.title} />
-                    )
-                })
-            }
-      </div>
-    )
+function Logements() {
+  return (
+    <div className="logements">
+      {datas.map((data) => {
+        return (
+          <Fiche
+            key={data.id}
+            id={data.id}
+            cover={data.cover}
+            title={data.title}
+          />
+        );
+      })}
+    </div>
+  );
 }
-export default Logements
+export default Logements;
 
 /*  Méthode map pour itérer sur le tableau datas et générer des éléments JSX pour chaque élément du tableau :
 - datas : C'est un tableau de données sur lequel la méthode map est appelée.
