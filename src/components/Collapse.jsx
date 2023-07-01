@@ -2,7 +2,6 @@ import React, { useState } from "react";
 //permet de conserver l'état de l'élément (ouvert ou fermé) même si on change de page
 import DownChevron from "../assets/Vector-down.png";
 import UpChevron from "../assets/Vector-up.png";
-import "../styles/CollapseAbout.css";
 
 //https://blog.openreplay.com/creating-a-collapsible-component-for-react/
 

@@ -4,10 +4,12 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    position: relative;
 
 }
 
 .Carrousel__image {
+
     min-width: 100%;
     height: 415px;
     object-fit: cover;
@@ -17,11 +19,12 @@
 
 .Carrousel__btnLeft {
     position: absolute;
-    left: 10%;
-    top: 25%;
+    left: 2%;
+    top: 30%;
     margin-top: 40px;
     width: 47px;
     height: 79px;
+    z-index: 1000;
     transition: all 0.3s;
 }
 
@@ -32,11 +35,12 @@
 
 .Carrousel__btnRight {
     position: absolute;
-    right: 10%;
-    top: 25%;
+    right: 2%;
+    top: 30%;
     margin-top: 40px;
     width: 47px;
     height: 79px;
+    z-index: 1000;
     transition: all 0.3s;
 }
 
@@ -47,7 +51,7 @@
 
 .Carrousel__counter {
     position: absolute;
-    top: 45%;
+    top: 89%;
     font-size: 24px;
     font-weight: 900;
     color: white;

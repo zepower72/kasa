@@ -2,6 +2,7 @@ import Banner from "../components/Banner"
 import Main from "../components/Main"
 import CollapseAbout from "../components/CollapseAbout"
 import bannerAbout from "../assets/banner-about.png"
+import "../styles/CollapseAbout.css";
 
 
 function About() {

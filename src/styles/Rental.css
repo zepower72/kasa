@@ -34,8 +34,26 @@
 
 .dropdown__container {
     display: flex;
-    gap : 25px;
+    gap: 25px;
 }
-.DD__title {
+
+.DD__header {
     width: 600px;
+    height: 350px;
+}
+
+.DD__Title {
+    font-size: 18px;
+    font-weight: 400;
+
+    padding-left: 20px;
+}
+
+.EquipmentsList {
+    list-style-type: none;
+    width: 600px;
+    padding-left: 20px;
+
+
+
 }

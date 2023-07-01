@@ -72,16 +72,13 @@ Ainsi, si rentest défini et non faux, le code extraira le prénom et le nom de 
         </div>
 
         <section className="dropdown__container">
-          <div className="DD__title">
-
-            <Dropdown body={picked.description} />
+          <div className="DD__header">
+            <Dropdown title="Description" body={picked.description}/>
           </div>
-
-          <div className="DD__title">
-            <Dropdown body={EquipmentsList} />
+          <div className="DD__header">
+            <Dropdown title="Equipements" body={EquipmentsList} />
           </div>
         </section>
-        
       </Main>
     </div>
   );
