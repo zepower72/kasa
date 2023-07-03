@@ -9,7 +9,7 @@ function About() {
 	return (
 		<div className="about">
 			
-			<Banner banner={bannerAbout} />
+			<Banner banner={bannerAbout}/>
 			<Main>
 				<CollapseAbout/>
 			</Main>

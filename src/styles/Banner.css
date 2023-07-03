@@ -1,6 +1,6 @@
 .banner {
     position: relative;
-    width: 1240px;
+    width: 100%;
     height: 223px;
     margin: 0 auto;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
     overflow: hidden;
     border-radius: 25px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .banner__img {
@@ -20,21 +20,25 @@
     object-fit: cover;
 }
 
-.banner__shadow {
-    position: absolute;
-    width: 100%;
-    height: 223px;
-    background: #F7F7F7;
-    background-color: black;
-    mix-blend-mode: darken;
-    opacity: 0.3;
-}
-
 .banner h1 {
     position: relative;
     display: flex;
     font-size: 48px;
-    justify-content: center;
+    font-weight: 500;
     align-items: center;
     color: #FFFFFF;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+
+    .banner {
+        height: 180px;
+    }
+
+    .banner h1 {
+
+        font-size: 24px;
+        padding-left: 30px;
+        ;
+    }
 }

@@ -1,9 +1,10 @@
 .main {
 
     box-sizing: border-box;
-    width: 1240px;
+    width: 100%;
     min-height: 900px;
     margin: 0 auto;
     padding: 0;
     text-decoration: none;
 }
+

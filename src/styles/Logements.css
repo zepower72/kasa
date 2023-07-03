@@ -1,13 +1,25 @@
 .logements {
     display: flex;
     flex-wrap: wrap;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-top : 56px;
-    padding-bottom : 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 56px;
+    padding-bottom: 43px;
     justify-content: space-around;
-    gap: 60px;
+    gap: 25px;
     margin: 0 auto;
     border-radius: 25px;
     background-color: #F7F7F7;
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .logements {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logements {
+        padding: 15px;
+    }
 }
