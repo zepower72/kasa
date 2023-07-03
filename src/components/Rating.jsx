@@ -1,6 +1,7 @@
 import React from "react";
 import Star from "../assets/star_rate-24px empty.svg";
 import Starfull from "../assets/star_rate-24px full.svg";
+import "../styles/Rating.css";
 
 export default function Rating({ rating }) {
   const range = [1, 2, 3, 4, 5];

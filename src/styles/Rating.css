@@ -1,0 +1,14 @@
+@media (min-width: 321px) and (max-width: 767px) {
+
+    .rating img {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .rating img {
+        height: 25px;
+        width: 25px;
+    }
+}

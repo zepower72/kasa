@@ -48,38 +48,41 @@ Ainsi, si rentest défini et non faux, le code extraira le prénom et le nom de 
   ));
 
   return (
-    <div className="rental__container">
-      <Main>
-        <div>
+    <Main>
+     
+        <section ClassName="carrousel">
           <Carrousel pictures={picked.pictures} />
-        </div>
-
-        <section className="rental__presentation">
-          <div className="rental__title">
+        </section>
+        <section className="rental">
+        <section className="rental__section">
+          <div className="rental__presentation">
             <h1>{picked.title}</h1>
             <p className="rental__location">{picked.location}</p>
           </div>
+          <div className="rental__tags">
+            <Tags tags={picked.tags} />
+          </div>
+        </section>
 
+        <section className="rental__hosting">
           <div className="rental__host">
             <HostName firstName={firstName} lastName={lastName} />
             <Host name={picked.host.name} profil={picked.host.picture} />
           </div>
+          <div className="rental__rating">
+            <Rating rating={picked.rating} />
+          </div>
         </section>
+      </section>
 
-        <div className="rental__info">
-          <Tags tags={picked.tags} />
-          <Rating rating={picked.rating} />
+      <section className="dropdown__container">
+        <div className="DD__header">
+          <Dropdown title="Description" body={picked.description} />
         </div>
-
-        <section className="dropdown__container">
-          <div className="DD__header">
-            <Dropdown title="Description" body={picked.description}/>
-          </div>
-          <div className="DD__header">
-            <Dropdown title="Equipements" body={EquipmentsList} />
-          </div>
-        </section>
-      </Main>
-    </div>
+        <div className="DD__header">
+          <Dropdown title="Equipements" body={EquipmentsList} />
+        </div>
+      </section>
+    </Main>
   );
 }

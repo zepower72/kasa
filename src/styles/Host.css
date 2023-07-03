@@ -3,5 +3,12 @@
     background: #C4C4C4;
     width: 64px;
     height: 64px;
+}
 
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .hostPicture {
+        width: 32px;
+        height: 32px;
+    }
 }
