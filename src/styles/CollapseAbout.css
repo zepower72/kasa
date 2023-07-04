@@ -8,7 +8,6 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 100%;
     gap: 30px;
 }
 
@@ -63,7 +62,7 @@
     line-height: 34px;
     overflow: hidden;
     transition: all 0.3s ease;
-    height: 250px;
+
 }
 
 @media (min-width: 321px) and (max-width: 767px) {
@@ -89,7 +88,7 @@
     .dropdown__body {
         font-size: 12px;
         line-height: 18px;
-        height: 150px;
+
     }
 }
 
@@ -112,7 +111,7 @@
     .dropdown__body {
         font-size: 18px;
         line-height: 24px;
-        height: 250px;
+
     }
 }
 
@@ -135,6 +134,6 @@
     .dropdown__body {
         font-size: 18px;
         line-height: 24px;
-        height: 250px;
+
     }
 }
