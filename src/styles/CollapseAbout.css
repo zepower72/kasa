@@ -93,7 +93,30 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .dropdown-container {
+        width: 100%;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown h2 {
+        font-size: 20px;
+        line-height: 18, 54px;
+    }
+
+    .dropdown__body {
+        font-size: 18px;
+        line-height: 24px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
 
 
     .dropdown-container {
