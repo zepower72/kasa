@@ -17,6 +17,7 @@ export default function Rental() {
   const { id } = useParams();
   //permet de récupérer l'URL du paramètre id
   const picked = dataRent.find((rental) => rental.id === id);
+  
   const navigate = useNavigate();
 
   //const [PickedRent, setPickedRent] = useState();
@@ -50,7 +51,7 @@ Ainsi, si rentest défini et non faux, le code extraira le prénom et le nom de 
   return (
     <Main>
      
-        <section ClassName="carrousel">
+        <section className="carrousel">
           <Carrousel pictures={picked.pictures} />
         </section>
         <section className="rental">

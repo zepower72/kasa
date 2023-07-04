@@ -4,6 +4,7 @@
 
 .error404 h1 {
     margin: 0 auto;
+    padding-top: 200px;
     font-weight: 700;
     font-size: 288px;
     line-height: 142.6%;
@@ -17,7 +18,7 @@
 
 .error404 p {
     margin: 0 auto;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     font-weight: 500;
     font-size: 36px;
     line-height: 142.6%;
@@ -25,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: #FF6060;
 }
 
@@ -44,4 +46,24 @@
 .error404 a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .error404 h1 {
+        font-size: 96px;
+        line-height: 137px;
+        /* or 411px */
+    }
+
+    .error404 p {
+        font-size: 18px;
+        line-height: 25px;
+        /* or 51px */
+    }
+
+    .error404 a {
+        font-size: 14px;
+        line-height: 142.6%;
+    }
+
 }
