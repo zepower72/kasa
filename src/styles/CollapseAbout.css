@@ -1,14 +1,15 @@
 .main {
-    width: 90%;
+    width: 100%;
 }
 
 .dropdown-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 0 auto;
 }
 
 .dropdown {
@@ -65,12 +66,12 @@
 
 }
 
+.dropdown__body li {
+    list-style: none;
+}
+
 @media (min-width: 321px) and (max-width: 767px) {
 
-
-    .dropdown-container {
-        width: 100%;
-    }
 
     .dropdown__header {
         height: 30px;
@@ -95,10 +96,6 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
 
-    .dropdown-container {
-        width: 100%;
-    }
-
     .dropdown {
         width: 100%;
     }
@@ -117,10 +114,6 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-
-    .dropdown-container {
-        width: 100%;
-    }
 
     .dropdown {
         width: 100%;

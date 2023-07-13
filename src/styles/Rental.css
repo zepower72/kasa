@@ -65,7 +65,7 @@ h1 {
     padding-left: 20px;
 }
 
-.EquipmentsList {
+.equipmentsList li {
     list-style-type: none;
     width: 100%;
 }
